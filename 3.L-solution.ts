@@ -34,3 +34,6 @@ class CryptoPayment  implements Payable {
 function processRefund(payment:Refundable, amount: number) {
   payment.refund(amount); // explota si es crypto
 }
+let creditcard=new CreditCard()
+
+processRefund(creditcard,2000);
