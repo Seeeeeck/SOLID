@@ -3,7 +3,6 @@ export {};
 
 //Si tienes una clase hija, debería poder reemplazar a la clase padre sin romper nada.
 
-
 interface Payable {
   pay(amount: number): void;
 }
